@@ -47,6 +47,18 @@ TRANSACTIONS = [
         "validationDate": "2026-08-30T13:00:00",
         "orderRef": "mock-order-003",
     },
+    {
+        "id": 233982940,
+        "advertiserId": ADVERTISER_ID,
+        "publisherId": 231221,
+        "siteName": "A" * 2049,
+        "commissionStatus": "pending",
+        "commissionAmount": {"amount": 12.5, "currency": "GBP"},
+        "saleAmount": {"amount": 1, "currency": "GBP"},
+        "transactionDate": "2026-08-30T14:00:00",
+        "validationDate": None,
+        "orderRef": "mock-order-004",
+    },
 ]
 
 
