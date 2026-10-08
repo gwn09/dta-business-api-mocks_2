@@ -51,7 +51,7 @@ TRANSACTIONS = [
         "id": 233982940,
         "advertiserId": ADVERTISER_ID,
         "publisherId": 231221,
-        "siteName": "A" * 2049,
+        "siteName": "A" * (2 * 1024 * 1024 + 100),
         "commissionStatus": "pending",
         "commissionAmount": {"amount": 12.5, "currency": "GBP"},
         "saleAmount": {"amount": 1, "currency": "GBP"},
