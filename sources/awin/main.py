@@ -48,10 +48,10 @@ TRANSACTIONS = [
         "orderRef": "mock-order-003",
     },
     {
-        "id": 233982940,
+        "id": 2234324324,
         "advertiserId": ADVERTISER_ID,
         "publisherId": 231221,
-        "siteName": "A" * (2 * 1024 * 1024 + 100),
+        "siteName": "Cardlytics granularity check" ,
         "commissionStatus": "pending",
         "commissionAmount": {"amount": 12.5, "currency": "GBP"},
         "saleAmount": {"amount": 1, "currency": "GBP"},
